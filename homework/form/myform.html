@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+   background-image: url("gray1.jpg");
+}
+.form {
+   width: 45%;
+   text-align:left;
+   float:left;
+   margin-bottom: 10px;
+}
+comment{
+  font-size: 15px;
+}
+
+#area{
+    border-style: solid;
+    border-width: medium;
+}
+</style>
+</head>
+<body>
+	<form>
+   <h1 style="text-align: center">Registration Form</h1>
+   	
+    <div class ="form" style="margin-left: 50px;">
+    	<fieldset style="margin-bottom: 20px;">
+            <legend style="font-weight:bold;"> Username</legend>         
+            <comment>Enter your desired</comment>  <comment style = "font-weight:bold;">log in</comment> <comment>username. </comment><br>
+            <input type="text" id="lusername" name="lusername"style = "font-weight:250px;" size = "45"required><br>
+            <comment>Enter your desired</comment>  <comment style = "font-weight:bold;">display</comment> <comment>username. </comment><br>
+            <input type="text" id="dusername" name="dusername"style = "font-weight:250px;"  size = "45"required><br>
+           </fieldset>
+      <fieldset style="margin-bottom: 20px;">
+            <legend style="font-weight:bold;">  Password</legend>
+            <comment>Enter your password.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</comment> 
+            <comment>Confirn your password.</comment><br>
+            <input type="text" id="password" name="password" style = "font-weight:250px;margin-right: 10px;" size = "25" required>
+            <input type="text" id="Cpassword" name="Cpassword" style = "font-weight:250px;" size = "25" required><br>
+      </fieldset>
+      <fieldset style="margin-bottom: 20px;">
+         <legend style="font-weight:bold;">  Email Address</legend>
+         <comment>Enter your Email Address.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</comment>
+         <comment>Confirn your Email Address.</comment> 
+         <input type="text" id="Email Address" name="Email Address" style = "font-weight:250px;margin-right: 10px;" size = "25" required>
+         <input type="text" id="CEmail Address" name="CEmail Address" style = "font-weight:250px;" size = "25" required><br>
+      </fieldset>  
+    </div>
+    <div class ="form" style="margin-right: 50px;">
+    	<fieldset>
+        <legend style="font-weight:bold;"> Receiving Email</legend>
+        <comment >Now and again, the administrators and other members might wish to contact you via email through this board.</comment><br><br>
+        <input type="checkbox"  id="email_a" name="birthdate">
+        <comment >Receive email from administrators.</comment><br>
+        <input type="checkbox"  id="email_m" name="birthdate">
+        <comment >Receive email from other members.</comment><br>
+      </fieldset>
+      <fieldset style="margin-top: 25px;"> 
+         <legend style="font-weight:bold;"> Personal Information</legend>
+         <comment>Birth date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<comment>
+         <comment>Phone Number</comment><br>
+         <input type="date"  name="birthdate" style = "margin-right: 10px;">
+         <input type="tel" id="telephone" name="telephone" style = "height: 17.5px;" size = "25" required><br>
+      </fieldset>
+      <fieldset style="margin-top: 25px;">
+         <input type="checkbox" name = "robot">
+         <comment style = "font-weight:bold; margin-right: 50px;">I'm not a robot</comment>
+         <button>Submit My Registration</button>
+      </fieldset>
+    </div>
+    
+    </form>
+
+
+</body>
+</html>
+
+
+</body>
+</html>
