@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script>
-function showTime() {//提供各時間單位
-    var today=new Date();
-    var h=today.getHours();
-    var m=today.getMinutes();         2.
-    var s=today.getSeconds();              4.
-    document.getElementById('time').innerHTML = h+":"+m+":"+s; 3.
-    setTimeout(showTime,1000);  6.     
-}                               
-</script>
-</head>
-
-<body onload="showTime()">  1.
-    <div id="time"></div>   5.
-</body>
-</html>
 
 學習要點：
 new Date()：一種物件，內含各種時間數值，如果沒特別設定格式，會以
