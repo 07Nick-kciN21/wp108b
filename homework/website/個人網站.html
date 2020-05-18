@@ -109,45 +109,35 @@ body {
   display: block;
 }
 
-table,th,td
-{  
- 
-  border:0 red;
-  color: darkslategray;
-} 
-
  th,td
 {
   padding:5px;
   text-align: center;
 }   
- th
+th
 {
-  width: auto;
-  color: rgb(228, 183, 88);
+  color: rgb(14, 12, 10);
 }
- th1
-{
-  width: auto;
-  color: rgb(228, 183, 88);
-}
-.right {
-  background-color:#e5e5e5;
-  float:left;
-  width:20%;
-  padding:15px;
-  margin-top:7px;
-  text-align:center;
-}
+td
+{  
+  color: rgb(181, 255, 255);
+} 
 table{
-    opacity: 0.1; /*透明度設為 0.5*/
-    filter: alpha(opacity=50); /* IE8 與更早的版本*/
+    opacity: 0.3; /*透明度設為 0.3*/
+    filter: alpha(opacity=50); 
 }
 table:hover{
     opacity: 1.0; /*設為完全不透明*/
-    filter: alpha(opacity=100); /* IE8 與更早的版本*/
+    filter: alpha(opacity=100); 
 }
-
+.img{
+    opacity: 0.1; /*透明度設為 0.1*/
+    filter: alpha(opacity=50); 
+}
+.img:hover{
+    opacity: 1.0; /*設為完全不透明*/
+    filter: alpha(opacity=100); 
+}
 </style>
 </head>
 
@@ -158,15 +148,15 @@ table:hover{
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
- 
+
 </script>
-<body  style="background-size:cover ; background-image: url(1.jpg);">
-  
-   <p1 style="position: absolute;top:5%;left:45%; font-size: 40px; color: orange;"> 徐仁鴻</p1>
-  <table id = 'table1' style="position: absolute; top:20%;left:30%;">
+<body  style="background-size:cover ; background-image: url(sunset.jpg);">
+  <img src="未命名.png" alt="face" class = 'img' style="width: 350px; height: 150px; position: absolute;top:20%;right:24%">
+  <p1 style="position: absolute;top:5%;left:45%; font-size: 40px; color: orange;"> 徐仁鴻</p1>
+  <table style="position: absolute; top:20%;left:20%;">
       <tr>       
-          <th>項目</th>
-          <th>內容</th>   
+          <td>項目</td>
+          <td>內容</td>   
       </tr>
       <tr>      
           <td>生日</td>
@@ -177,15 +167,33 @@ table:hover{
           <td>男生</td>
       </tr>
       <tr>      
-          <td>學歷</td>
-          <td>國立金門大學資工系(現就讀)
+          <th>學歷</th>
+          <th>國立金門大學資工系(現就讀)
           <br>桃園市立龍潭高中
           <br>桃園市立平南國中
           <br>桃園市立山豐國小
-       </td>    
-      </tr>     
+          </th>    
+      </tr>
+      <tr>
+        <th>個人特質</th>
+        <th>情緒起伏大，內心戲多，在你看不<br>
+            見的地方醞釀了無數的思想風暴
+        </th>
+      </tr> 
+      <tr >
+        <th style="color: gold;">未來期望</th>
+        <th style="color: gold;">出國交換<br>
+            考取研究所<br>
+            賺他一個億!</th>
+      </tr>    
     </table>   
- 
+  <table style="position: absolute; top:45%;right:15%;">
+    <tr>       
+      <td>來自桃園市山仔頂的冒失鬼<br>做事有些脫線<br>又容易陷入內心小劇場<br>往往會抱著"那就這樣吧"
+        <br>的心態一股腦衝出去<br>然後又在想"這樣真的好嗎"<br>開始腦內大爆炸
+      </td>  
+    </tr>
+  </table>
   <div class="navbar">
     <div class="dropdown">
       <button class="dropbtn">愛用的網站
@@ -193,7 +201,7 @@ table:hover{
       </button>
       <div class="dropdown-content">
         <a href="https://www.bilibili.com/">
-          <img border="0" src="bilibili.png" alt="Bilibili" width="100" height="40"></a>
+          <img border="0" src="bilibili.png" alt="bilibili" width="100" height="40"></a>
         <a href="https://www.youtube.com/">
           <img border="0" src="youtube.png" alt="Youtube" width="100" height="40"></a>
         <a href="https://www.gamer.com.tw/">
