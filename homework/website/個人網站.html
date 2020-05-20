@@ -125,10 +125,13 @@ table:hover{
 .img{
     opacity: 0.1; /*透明度設為 0.1*/
     filter: alpha(opacity=50); 
+    width: 200px; 
+    height: 80px;
 }
 .img:hover{
     opacity: 1.0; /*設為完全不透明*/
     filter: alpha(opacity=100); 
+    width: 400px; height: 200px;
 }
 </style>
 </head>
@@ -143,7 +146,7 @@ table:hover{
 
 </script>
 <body  style="background-size:cover ; background-image: url(sunset.jpg);">
-  <img src="face.png" alt="face" class = 'img' style="width: 350px; height: 160px; position: absolute;top:19%;right:25%">
+  <img src="face.png" alt="face" class = 'img' style="position: absolute;top:29%;right:23%">
   <p1 style="position: absolute;top:5%;left:45%; font-size: 40px; color: orange;"> 徐仁鴻</p1>
   <table style="position: absolute; top:20%;left:20%;">
       <tr>       
