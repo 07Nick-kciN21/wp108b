@@ -7,4 +7,4 @@ alert("時間到了")會比n=0要早出現，如果要改成先n=0再跳”時�
 改成if(n===-1)，這樣就是n=0再跳”時間到了”後跳n=-1，可我們也不想要-1，這時再把  
 document.getElementById("time").innerHTML=n+'';移到else {}當中，問題就解決了。
 
-![Alt text](countdown流程圖(修改版).png)
+![Alt text](countdown(修改版)流程圖.png)
