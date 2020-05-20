@@ -1,3 +1,6 @@
+![Alt text](calculator流程圖.png)
+
+
 學習要點：
 
 document.getElementById(‘id’)：
