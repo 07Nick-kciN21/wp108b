@@ -12,43 +12,43 @@
 body {
   font-family: "Lato", sans-serif;
  }
-.sidenav {
-  height: 100%;
+.sidenav {/*側欄主架構*/
+  height: 100%; 
   width: 0;
-  position: fixed;
+  position:fixed;
   z-index: 1;
-  top: 0;
-  left: 0;
+  top: 0;/*展開時距離頂部的距離*/
+  left: 0;/*展開時距離左邊的距離*/
   background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+  overflow-x:hidden;
+  transition: 0.5s;/*展開的速度*/
+  padding-top: 50px;
 }
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
+.sidenav a {/*側欄內鏈接屬性*/
+  padding: 8px 8px 8px 10px;
+  text-decoration:rgb(255, 255, 255);
   font-size: 25px;
-  color: #818181;
-  display: block;
+  color: #adacac;
+  display:block ;/*顯示結構設定*/
   transition: 0.3s;
 }
-.sidenav a:hover {
+.sidenav a:hover {/*觸碰時的設定*/
   color: #f10101;
 }
 
-.sidenav .closebtn {
+.sidenav .closebtn {/*關閉鍵的設定*/
   position: absolute;
   top: 0;
-  right: 25px;
+  right: 20px;
   font-size: 36px;
   margin-left: 50px;
 }
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {/*不同裝置時的顯示設定*/
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 
-.navbar {
+.navbar {/*功能表*/
   overflow: hidden;
   background-color: #333;
 }
