@@ -21,8 +21,8 @@ location.assign("url"):載入一個檔案或網頁
 goBack():返回上一頁  
 goForward():前往下一頁  
 
-navigator.appName:取得瀏覽器應正式名稱  
-navigator.appCodeName:瞿德瀏覽器編碼名稱  
+navigator.appName:取得瀏覽器正式名稱  
+navigator.appCodeName:取得瀏覽器編碼名稱  
 navigator.product  
 navigator.appVersion:取得瀏覽器版本  
 navigator.userAgent:取得代理商名稱與瀏覽器版本  
