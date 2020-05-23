@@ -10,12 +10,12 @@ resizeTo():調整視窗寬高
 screen.width:取得螢幕的寬度  
 screen.availWidth:取得螢幕的可用寬度  
 screen.height:取得螢幕的高度  
-screen.availheight:取得螢幕的可用高度
+screen.availheight:取得螢幕的可用高度  
 screen.colorDepth:取得螢幕的像素深度  
 
 location.href:取得目前頁面的網址  
 location.pathname:取得目前網頁的路徑名稱  
-location.protocol:取得目前網頁的協定
+location.protocol:取得目前網頁的協定  
 location.assign("url"):載入一個檔案或網頁  
 
 goBack():返回上一頁  
