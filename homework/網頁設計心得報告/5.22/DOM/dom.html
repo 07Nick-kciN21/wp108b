@@ -1,7 +1,16 @@
 <html>
+  <style>
+   h1{border: 1px solid rgb(18, 26, 26) ;}
+  </style>
 <body>
-  <button onclick="document.querySelectorAll('div').forEach(o=>o.innerHTML='Hi!')">Say Hi</button>
-  <div>Hello!</div>
-  <div>Hello!</div>
+  <button onclick="document.querySelectorAll('.main').forEach(o=>o.innerHTML='wow')">class main: Say wow</button>
+  <button onclick="document.querySelectorAll('p').forEach(o=>o.innerHTML='yeah')">p: Say yeah</button>
+  <button onclick="document.querySelectorAll('p.class').forEach(o=>o.innerHTML='hi')">p&class: Say hi</button>
+  <button onclick="document.querySelectorAll('div').forEach(o=>o.innerHTML='oh')">div : Say oh</button>
+  <h1 class = "main"> 處於class:main中
+    <p class="class">使用p標籤與class元素</p>
+    <div>使用div標籤</div>
+    <p>使用p標籤</p>
+  </h1>
 </body>
 </html>
