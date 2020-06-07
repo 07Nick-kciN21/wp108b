@@ -7,25 +7,25 @@
 <script>
 window.onload = function() {
   var c = document.getElementById("myCanvas");
-  var ctx = c.getContext("2d");
+  var ctx = c.getContext("2d");//指定2D繪圖類型，也可以做3D繪圖  
   var img = document.getElementById("ball"); // 取得 id=ball 的隱藏 image 元素  
   ctx.drawImage(img, 10, 100); // 畫球的圖片
   // 畫紅色框線
-  ctx.beginPath();
-  ctx.strokeStyle="red";
-  ctx.rect(20,20,55,20);
-
+  ctx.beginPath();//生成一個路徑
+  ctx.strokeStyle="red";//設定邊框為紅色，沒有此項默認黑色
+  ctx.rect(20,20,55,20);//在座標(20,20)的地方畫一個(寬55,長20)的矩形
+  ctx.stroke();
   // 畫藍色實心方框
   ctx.beginPath();
   
-  ctx.fillStyle="#0000FF";
-  ctx.fillRect(80,20,50,50);
+  ctx.fillStyle="yellow";//把圖形設為黃色填滿，沒有此項默認黑色 
+  ctx.fillRect(80,20,50,50);//座標(80,20)的地方畫一個(寬50,高50)的實心矩形
   ctx.stroke();   
   // 畫黑色圓圈框線
   ctx.beginPath();
   ctx.strokeStyle = "black";
   ctx.lineWidth = 5; // 筆的寬度為 5px
-  ctx.arc(100,75,50,0,2*Math.PI);
+  ctx.arc(100,75,50,0,2*Math.PI);//以座標(100,75)為中心，畫一個半徑50，起始角0度，以順時針到2*Math.PI的圓弧 
   ctx.stroke();   
 }
 </script>

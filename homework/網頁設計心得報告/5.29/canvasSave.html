@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="578" height="200"></canvas>
+    <img id="canvasImg" alt="Right click to save me!">
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      // draw cloud
+      context.beginPath();
+      context.moveTo(170, 80);//從(170,80)開始
+      context.bezierCurveTo(130, 100, 250, 100, 250, 100);//畫出圖形
+      context.bezierCurveTo(250, 180, 320, 180, 250, 100);
+      context.bezierCurveTo(420, 150, 420, 120, 250, 100);
+      context.bezierCurveTo(430, 40, 370, 30, 250, 100);
+      context.bezierCurveTo(320, 5, 250, 20, 250, 100);
+      context.bezierCurveTo(200, 5, 150, 20, 250, 100);
+      context.closePath();
+      context.lineWidth = 5;//線的粗細
+      context.fillStyle = '#8ED6FF';//圖案的顏色
+      context.fill();
+      context.strokeStyle = 'red';//邊線的顏色
+      context.stroke();
+
+      // save canvas image as data url (png format by default)
+      var dataURL = canvas.toDataURL();//生成可選取圖片連結
+
+      // set canvasImg image src to dataURL
+      // so it can be saved as an image
+      document.getElementById('canvasImg').src = dataURL;//把連接放入canvasImg
+
+    </script>
+  </body>
+</html>      

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<img id="ball" src="ball.jpg" alt="The Scream">
+<p>Canvas:</p>
+<canvas id="myCanvas" width="300" height="300" style="border:1px solid #1f0c0c; background-color: blue;">
+<script>
+var img, ctx, canvas;
+var x=0, y=0;
+
+window.onload = function() {//當畫面載入
+  canvas = document.getElementById("myCanvas");//取得myCanvas的Canvas
+  ctx = canvas.getContext("2d");
+  img = document.getElementById("ball");//輸入ball為img元素
+  draw();//執行draw()函式
+}
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);//把圖片之前的痕跡清除
+  ctx.drawImage(img, x, y);//在輸入的座標放置圖片
+  x+=1; y+=1;//座標增加值
+  setTimeout(draw, 10);//10毫秒後執行draw函式  
+}
+
+</script>
+
+</body>
+</html>

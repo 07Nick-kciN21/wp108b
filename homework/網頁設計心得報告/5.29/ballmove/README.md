@@ -1,1 +1,0 @@
-先放置一張球的圖，透過setTimeout(draw, 100)

@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+      canvas {
+        border: 1px solid #aaaaaa;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="578" height="200"></canvas>
+    <script>
+      function writeMessage(canvas, message) {
+        var context = canvas.getContext('2d');
+        context.clearRect(0, 0, canvas.width, canvas.height);//不斷清除舊的座標
+        context.font = '18pt Calibri';//字體
+        context.fillStyle = 'red';//字的顏色
+        context.fillText(message, 10, 25);//放置的位置
+      }
+      function getMousePos(canvas, evt) {
+        var rect = canvas.getBoundingClientRect();//取得矩形的各種數值
+        return {
+          x: evt.clientX - rect.left,
+          y: evt.clientY - rect.top
+        };
+      }
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      canvas.addEventListener('mousemove',//設置當mousemove時觸發事件 
+      function(evt) {          
+        var mousePos = getMousePos(canvas, evt);//取得滑鼠座標
+        var message = 'Mouse position: ' + mousePos.x + ',' + mousePos.y;
+        writeMessage(canvas, message);}, false);
+    </script>
+  </body>
+</html>
+      
