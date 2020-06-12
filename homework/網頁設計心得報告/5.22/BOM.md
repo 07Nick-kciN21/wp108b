@@ -1,5 +1,7 @@
+## BOM  
+```
 可透過開發人員工具執行以下指令取得特定數值或某些動作  
-
+```
 document.body.clientHeight或document.documentElement.clientHeight:取得視窗的高  
 document.body.clientWidth或document.documentElement.clientWidth:取得視窗的寬度  
 open():開啟新視窗  
