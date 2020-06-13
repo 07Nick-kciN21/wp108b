@@ -37,7 +37,7 @@ false
 搜尋字串中是否有符合的部分，回傳 true/false。 
 
 下面為個人在deno中實作例   
-var str = 'my username is 07Nick_21'   
+> var str = 'my username is 07Nick_21'   
 > /\d+/.exec(str)  
 [ "07" ]  
 > /[a-z]+/.exec(str)  
