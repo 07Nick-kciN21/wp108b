@@ -32,8 +32,30 @@ true
 > /[_]+/.test(str)  
 false  
 
+
+## RegExp.prototype.exec() 尋找並取出內容
+搜尋字串中是否有符合的部分，回傳 true/false。 
+
+下面為個人在deno中實作例   
+var str = 'my username is 07Nick_21'   
+> /\d+/.exec(str)
+[ "07" ]
+> /[a-z]+/.exec(str)
+[ "my" ]
+> /[A-Z]+/.exec(str)
+[ "N" ]
+> str = 'My username is 07Nick21'
+> /[A-Z]+/g.exec(str)
+[ "M" ]
+> /[_]+/g.exec(str)
+null
+> var str = 'my username is 07Nick_21'
+undefined
+> /[_]+/g.exec(str)
+[ "_" ]
+
 下面為個人在JaveScript中實作例，參考[regexp1.js](https://github.com/ccccourse/wp/blob/master/code/08-app2/basic/regexp1.js) 
-```c
+```c  
 let str = 'My username is 07Nick21'
 let regexp = /\w+/g
 var m
