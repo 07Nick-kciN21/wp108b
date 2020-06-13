@@ -111,4 +111,5 @@ undefined
   "do",   "not",    
   "like", "banana"  
 ]  
+#  \s  
 
