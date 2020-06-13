@@ -90,11 +90,11 @@ _ am _ick_07, _ do not like banana
 I am Nick___, I do not like banana  
 
 ## flag(標籤)  
-ˋˋˋ  
+```  
 regex = /hello/; // 區分大小寫，匹配 "hello", "hello123", "123hello123", "123hello"，但不匹配 "hell0", "Hello"  
 regex = /hello/i; // 不區分大小寫 "hello", "HelLo", "123HelLO"  
 regex = /hello/g; // 全域搜尋  
-ˋˋˋ  
+```  
 下面為個人在deno中實作例   
 > var str = 'I am Nick_07, I do not like banana'  
 undefined  
