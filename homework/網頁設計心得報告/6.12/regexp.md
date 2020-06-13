@@ -89,7 +89,7 @@ _ am _ick_07, _ do not like banana
 > str.replace(/[0-9]/g,'_')  
 I am Nick___, I do not like banana  
 
-## flag(標籤)
+## flag(標籤)  
 ˋˋˋ  
 regex = /hello/; // 區分大小寫，匹配 "hello", "hello123", "123hello123", "123hello"，但不匹配 "hell0", "Hello"  
 regex = /hello/i; // 不區分大小寫 "hello", "HelLo", "123HelLO"  
