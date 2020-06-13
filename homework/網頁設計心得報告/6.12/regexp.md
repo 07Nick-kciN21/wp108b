@@ -82,12 +82,12 @@ str.split(/\s+/)
 下面為個人在deno中實作例   
 > var str = 'I am Nick_07, I do not like banana'  
 undefined  
-> str.replace(/[A-Z]/,'HAA')  
-HAA am Nick_07, I do not like banana  
-> str.replace(/[A-Z]/g,'HAA')  
-HAA am HAAick_07, HAA do not like banana  
-> str.replace(/[0-9]/g,'NUM')  
-I am Nick_NUMNUM, I do not like banana  
+> str.replace(/[A-Z]/,'_')  
+_ am Nick_07, I do not like banana  
+> str.replace(/[A-Z]/g,'_')  
+_ am _ick_07, _ do not like banana  
+> str.replace(/[0-9]/g,'_')  
+I am Nick___, I do not like banana  
 
 
 
