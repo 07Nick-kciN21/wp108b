@@ -1,12 +1,5 @@
 > 說明: 本報告的節錄內容主要來源為--[[JS] 正則表達式(Regular Expression, regex) | PJCHENder 未整理筆記](https://pjchender.github.io/2017/09/26/js-%E6%AD%A3%E5%89%87%E8%A1%A8%E9%81%94%E5%BC%8F-regular-expression-regex/)
 
-ˋˋˋ  
-'str'.match(/[0-9]+/)          // 1 次以上的數字，等同於 "\d"  
-'str'.match(/[A-Za-z]+/)       // 1 次以上的英文字  
-'str'.match(/[A-Za-z0-9_]+/)   // 1 次以上的英數字含底線，等同於 "\w"  
-'str'.match(/.+/)              // 1 次以上的任意字元  
-ˋˋˋ
-
 ## JavaScript 中使用正規式的函式
 ```
 RegExp.prototype.test()：搜尋字串中是否有符合的部分，回傳 true/false。  
@@ -67,4 +60,35 @@ Found My. Next starts at 2.
 Found username. Next starts at 11.  
 Found is. Next starts at 14.  
 Found 07Nick21. Next starts at 23.  
-```
+```  
+## RegExp.prototype.split()：在字串根據匹配到的項目拆成陣列
+下面為個人在deno中實作例  
+> var str = 'My name is Nick, I like cookies'  
+undefined  
+> str.split(",")  
+[ "My name is Nick", " I like cookies" ]  
+str.split(/\s+/)  
+[  
+  "My",  
+  "name",   
+  "is",  
+  "Nick,",  
+  "I",  
+  "like",  
+  "cookies"  
+]  
+
+## String.prototype.replace()：尋找字串中匹配的部分，並取代之。
+下面為個人在deno中實作例   
+> var str = 'I am Nick_07, I do not like banana'  
+undefined  
+> str.replace(/[A-Z]/,'HAA')  
+HAA am Nick_07, I do not like banana  
+> str.replace(/[A-Z]/g,'HAA')  
+HAA am HAAick_07, HAA do not like banana  
+> str.replace(/[0-9]/g,'NUM')  
+I am Nick_NUMNUM, I do not like banana  
+
+
+
+
