@@ -17,7 +17,7 @@ var str = 'my username is 07_Nick_21, I like apple'
  
 以下段落節錄自--[https://pjchender.github.io/2017/09/26/js-%E6%AD%A3%E5%89%87%E8%A1%A8%E9%81%94%E5%BC%8F-regular-expression-regex/](https://pjchender.github.io/2017/09/26/js-%E6%AD%A3%E5%89%87%E8%A1%A8%E9%81%94%E5%BC%8F-regular-expression-regex/)
 ## JavaScript 中可以使用正規式的函式包含
-ˋˋˋ
+ˋˋˋ  
 RegExp.prototype.test()：搜尋字串中是否有符合的部分，回傳 true/false。  
 RegExp.prototype.exec()：以陣列回傳字串中匹配到的部分，否則回傳 null。  
 String.prototype.match()：以陣列回傳字串中匹配到的部分，否則回傳 null。  
