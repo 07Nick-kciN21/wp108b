@@ -35,13 +35,15 @@
   var cssbox  = document.getElementById("cssbox");  
   var editbox = document.getElementById("editbox");  
 ```  
-再輸入進showbox和showboxstyle  
+再輸入進showbox和showboxstyle，利用innerHTML可呈現html標籤的效果  
 ```c
   var showbox = document.getElementById("showbox");  
   var showboxstyle = document.getElementById("showboxstyle");  
   showbox.innerHTML = editbox.value;
   showboxstyle.innerHTML = cssbox.value;
 ```
+showbox是html的部分  
+showboxstyle則是CSS的部分  
 
 
 
