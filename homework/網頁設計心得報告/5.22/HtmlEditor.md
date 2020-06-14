@@ -1,5 +1,5 @@
 # HtmlEditor解析
-> 說明: 本報告的節錄內容主要來源為--[HtmlEditor](https://github.com/ccccourse/wp/blob/master/code/06-app1/htmlEditor/HtmlEditorEmpty.htm)  
+> 說明: 本報告的節錄內容主要來源為--[HtmlEditor.html](https://github.com/ccccourse/wp/blob/master/code/06-app1/htmlEditor/HtmlEditorEmpty.htm)  
 [呈現頁面](https://ccccourse.github.io/wp/code/06-app1/htmlEditor/HtmlEditorEmpty.htm)
 
 ## 簡介  
@@ -29,6 +29,20 @@
   </td>  
 </tr>  
 ```  
+## 方法  
+在cssbox、editbox輸入程式碼後，透過convert()函式，取得他們的內容  
+```c
+  var cssbox  = document.getElementById("cssbox");  
+  var editbox = document.getElementById("editbox");  
+```  
+再輸入進showbox和showboxstyle  
+```c
+  var showbox = document.getElementById("showbox");  
+  var showboxstyle = document.getElementById("showboxstyle");  
+  showbox.innerHTML = editbox.value;
+  showboxstyle.innerHTML = cssbox.value;
+```
+
 
 
 
