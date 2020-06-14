@@ -1,5 +1,6 @@
 # HtmlEditor解析
 > 說明: 本報告的節錄內容主要來源為--[HtmlEditor](https://github.com/ccccourse/wp/blob/master/code/06-app1/htmlEditor/HtmlEditorEmpty.htm)  
+[呈現頁面](https://ccccourse.github.io/wp/code/06-app1/htmlEditor/HtmlEditorEmpty.htm)
 
 ## 簡介  
 展示如何動態的展現一個網頁HTML+CSS的結果。  
