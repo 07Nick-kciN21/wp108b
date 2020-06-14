@@ -58,4 +58,29 @@ var ctx = $canvas[0].getContext("2d");
     ctx.fillStyle = "white";            //整個canvas塗上白色背景避免PNG的透明底色效果  
     ctx.fillRect(0, 0, $canvas.width(), $canvas.height());  
     var drawMode = false;  
+```  
+按下滑鼠時，取得顏色、粗細和起點，開啟drawMode  
+```c  
+$canvas.mousedown(function (e) {
+    ctx.beginPath();          
+    ctx.strokeStyle = p_color;
+    ctx.lineWidth = p_width;
+    ctx.moveTo(e.pageX - $canvas.position().left, e.pageY - $canvas.position().top);
+    drawMode = true;
+})
+``` 
+放開滑鼠時，關閉drawMode  
+```c
+.mouseup(function (e) {
+        drawMode = false;
+});
+```  
+滑鼠滑動時，如果有按住滑鼠，就畫線  
+```c 
+.mousemove(function (e) {
+    if (drawMode) {
+        ctx.lineTo(e.pageX - $canvas.position().left, e.pageY - $canvas.position().top);
+        ctx.stroke();
+    }
+})
 ```
