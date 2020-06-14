@@ -2,7 +2,7 @@
 ```
 可透過開發人員工具執行以下指令取得特定數值或某些動作  
 ```
-以下段落節錄自: -- [JavaScript HTML DOM - W3Schools](https://www.w3schools.com/js/js_htmldom.asp) 
+以下段落節錄自: -- [JavaScript HTML BOM - W3Schools](https://www.w3schools.com/js/js_htmldom.asp) 
 ```
 document.body.clientHeight或document.documentElement.clientHeight:取得視窗的高  
 document.body.clientWidth或document.documentElement.clientWidth:取得視窗的寬  

@@ -1,5 +1,5 @@
 ## 文檔對像模型(DOM)
-
+以下段落節錄自: -- [JavaScript HTML DOM - W3Schools](https://www.w3schools.com/js/js_htmldom_elements.asp) 
 ### 查詢html元素
 ``` 
 document.getElementById('id').innerHTML: 透過指定id，選取特定元素  
