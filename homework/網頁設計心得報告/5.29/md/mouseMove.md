@@ -29,7 +29,7 @@ function getMousePos(canvas, evt) {
         };
       }
 ```
-設一個message放進去  
+設一個message把座標放進去  
 ```c
 var message = 'Mouse position: ' + mousePos.x + ',' + mousePos.y;
 ```
@@ -38,8 +38,8 @@ var message = 'Mouse position: ' + mousePos.x + ',' + mousePos.y;
 function writeMessage(canvas, message) {
         var context = canvas.getContext('2d');
         context.clearRect(0, 0, canvas.width, canvas.height);//不斷清除舊的座標
-        context.font = '18pt Calibri';                      //字體
-        context.fillStyle = 'black';                          //字的顏色
-        context.fillText(message, 10, 25);//放置的位置
+        context.font = '18pt Calibri';                       //字體
+        context.fillStyle = 'black';                         //字的顏色
+        context.fillText(message, 10, 25);                   //放置的位置
       }
 ```
