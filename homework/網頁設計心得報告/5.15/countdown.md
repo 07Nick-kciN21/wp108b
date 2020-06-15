@@ -53,5 +53,5 @@ if(n===-1){
     }  
 ```    
 問題就解決了。  
-
+[修改後成品](https://github.com/ccccourse/wp/blob/master/code/05-js/clock.html)
 
