@@ -84,3 +84,11 @@ $canvas.mousedown(function (e) {
     }
 })
 ```
+利用.toDataqURL()將繪圖結果轉成圖檔
+```c
+$("#bGenImage").click(function () {
+    $("#dOutput").html(
+        $("<img />", { src: $canvas[0].toDataURL(),"class": "output"
+    }));
+});
+```
