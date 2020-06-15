@@ -1,7 +1,6 @@
-![Alt text](countdown流程圖.png)
+![Alt text](countdown.png)
 
-學習要點：  
-
+## 學習要點：  
 這個計時器程式跑到n=1會先跳出”時間到了”再跳出n=0，重點在於  
 ```c
 if(n===0){
@@ -35,4 +34,4 @@ if(n===-1){
 ```    
 問題就解決了。  
 
-![Alt text](countdown(修改版)流程圖.png)
+![Alt text](countdown(修改版).png)

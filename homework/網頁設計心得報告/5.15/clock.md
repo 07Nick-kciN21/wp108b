@@ -1,6 +1,8 @@
+# clock解析
+> 說明: 本報告的節錄內容主要來源為--[clock.html](https://github.com/ccccourse/wp/blob/master/code/05-js/clock.html)  
 ![Alt text](clock流程圖.png)
 
-學習要點：
+## 個人總結：
 
 new Date()：一種物件，內含各種時間數值，如果沒特別設定格式，會以  
 星期 月  日  年  時 : 分 : 秒 格林威治標準時間呈現，例如這樣  

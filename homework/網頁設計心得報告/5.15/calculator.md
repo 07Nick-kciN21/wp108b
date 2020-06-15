@@ -1,8 +1,8 @@
-
+# calculator解析  
 > 說明: 本報告的節錄內容主要來源為--[calculator.html](https://github.com/ccccourse/wp/blob/master/code/05-js/calculator.html)  
 ![Alt text](calculator流程圖.png)
 
-學習要點：
+## 個人總結：
 
 document.getElementById(‘id’)：
 把特定id內的元素提出來使用，var a = document.getElementById('a') 等於是var a = (value="3")
