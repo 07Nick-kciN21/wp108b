@@ -1,4 +1,5 @@
 
+> 說明: 本報告的節錄內容主要來源為--[calculator.html](https://github.com/ccccourse/wp/blob/master/code/05-js/calculator.html)  
 ![Alt text](calculator流程圖.png)
 
 學習要點：
