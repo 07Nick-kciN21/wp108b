@@ -1,7 +1,18 @@
 # calculator解析  
 > 說明: 本報告的節錄內容主要來源為--[calculator.html](https://github.com/ccccourse/wp/blob/master/code/05-js/calculator.html)  
-![Alt text](calculator流程圖.png)
-
+## 簡介   
+可做加減乘除的計算。  
+## 方法  
+在calculate()函式中取得要做運算的a、b字串和當運算符的op字串，再用eval()函式求值。  
+```c
+function calculate() {
+    var a = document.getElementById('a')
+    var op = document.getElementById('op')
+    var b = document.getElementById('b')
+    var result = document.getElementById('result')
+    result.innerText = eval(a.value + op.value + b.value)
+  }
+```
 ## 個人總結：
 
 document.getElementById(‘id’)：

@@ -1,6 +1,26 @@
-![Alt text](countdown.png)
+# calculator解析  
+> 說明: 本報告的節錄內容主要來源為--[clock.html](https://github.com/ccccourse/wp/blob/master/code/05-js/clock.html)  
+[呈現頁面](https://ccccourse.github.io/wp/code/05-js/clock.html)  
+## 簡介  
+倒數計時器  
 
-## 學習要點：  
+## 方法  
+在showtime()函式中，把n的值塞給<div id="time">  
+```c
+document.getElementById("time").innerHTML=n+'';
+```
+在還沒歸零時，因為setTimeout(showtime,1000)，延遲1000毫秒後再次呼叫showtime()函式  
+```c
+setTimeout(showtime,1000);
+n=n-1;
+```
+直到歸零，跳出時間到了  
+```c
+if(n===0){
+      alert("時間到了");
+    }		    
+```
+## 個人總結：  
 這個計時器程式跑到n=1會先跳出”時間到了”再跳出n=0，重點在於  
 ```c
 if(n===0){
@@ -34,4 +54,4 @@ if(n===-1){
 ```    
 問題就解決了。  
 
-![Alt text](countdown(修改版).png)
+
