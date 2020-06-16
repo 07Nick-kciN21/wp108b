@@ -7,4 +7,4 @@
 app  | [app](5.15/md)
 BOM & DOM  |[BOM & DOM](5.22/md) 
 canvas |[canvas](5.29/md)
-regexp  | [regexp](6.12/regexp.md)
+regexp  | [regexp](6.5/regexp.md)
