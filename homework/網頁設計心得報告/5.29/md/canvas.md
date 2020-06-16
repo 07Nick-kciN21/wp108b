@@ -1,9 +1,9 @@
 # canvas  
-
+> 說明: 本報告的節錄內容完全原創。
 ## 什麼是canvas  
 HTML <canvas>元素用於通過JavaScript動態繪製圖形。  
-該<canvas>元素只是用於圖形的容器。您必須使用JavaScript實際繪製圖形。  
-畫布有幾種繪製路徑，框，圓，文本和添加圖像的方法。  
+<canvas>元素只是用於圖形的容器。您必須使用JavaScript實際繪製圖形。  
+canvas函式用於繪製路徑，框，圓，文本和添加圖像。  
 
 ## canvas函式  
 ``` 

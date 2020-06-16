@@ -1,5 +1,6 @@
 # sketchpad解析  
 > 說明: 本報告的節錄內容主要來源為 -- [sketchapad.html](https://github.com/ccccourse/wp/blob/master/code/07-canvas/sketchpad/sketchpad.html)  
+[呈現頁面](https://ccccourse.github.io/wp/code/07-canvas/canvas/sketchpad.html)
 ## 簡介  
 設置不同顏色和粗細的選項，再透過追蹤滑鼠軌跡畫出線條，具有複製圖畫的功能  
 ## 主要構造  

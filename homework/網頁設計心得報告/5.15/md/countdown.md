@@ -1,6 +1,6 @@
 # calculator解析  
-> 說明: 本報告的節錄內容主要來源為--[clock.html](https://github.com/ccccourse/wp/blob/master/code/05-js/clock.html)  
-[呈現頁面](https://ccccourse.github.io/wp/code/05-js/clock.html)  
+> 說明: 本報告的節錄內容主要來源為--[clock.html](https://github.com/ccccourse/wp/blob/master/code/05-js/countdown.html)  
+[呈現頁面](https://ccccourse.github.io/wp/code/05-js/countdown.html)  
 ## 簡介  
 倒數計時器  
 
