@@ -27,6 +27,6 @@ PS C:\Users\Nick\Desktop\wp108b\homework\wp\code\05-js> node
 > y + x  
 3  
 > eval('x+y')  
-3         <--eval(字串)  
+3      
 > 'x+y'  
-'x+y'      <--只有字串
+'x+y'     
