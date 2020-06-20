@@ -10,7 +10,7 @@ document.querySelectorAll():透過指定(id,class names,types, attributes, value
 ``` 
 document.querySelectorAll()個人實作例:  
 參考[dom1.html](https://github.com/ccccourse/wp/blob/master/code/05-js/dom/dom1.html)後完全靠自己重寫   
-[querySelectorAll](https://07nick-kcin21.github.io/wp108b/homework/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E5%BF%83%E5%BE%97%E5%A0%B1%E5%91%8A/5.22/DOM/dom.html)   
+[querySelectorAll](https://07nick-kcin21.github.io/wp108b/homework/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E5%BF%83%E5%BE%97%E5%A0%B1%E5%91%8A/5.22/dom.html)   
 
 ### 更改html元素
 ``` 
