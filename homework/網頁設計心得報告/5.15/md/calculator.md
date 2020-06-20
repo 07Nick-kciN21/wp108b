@@ -1,6 +1,7 @@
 # calculator解析  
-> 說明: 本報告的節錄內容主要來源為--[calculator.html](https://github.com/ccccourse/wp/blob/master/code/05-js/calculator.html)  
+> 說明: 本報告的程式內容主要來源為--[calculator.html](https://github.com/ccccourse/wp/blob/master/code/05-js/calculator.html)  
 [呈現頁面](https://ccccourse.github.io/wp/code/05-js/calculator.html)  
+>其餘文字為原創  
 ## 簡介   
 可做加減乘除的計算。  
 ## 方法  
@@ -14,7 +15,7 @@ function calculate() {
     result.innerText = eval(a.value + op.value + b.value)
   }
 ```
-## 個人總結：
+## 個人總結(完全原創)
 
 document.getElementById(‘id’)：
 把特定id內的元素提出來使用，var a = document.getElementById('a') 等於是var a = (value="3")

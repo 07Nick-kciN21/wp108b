@@ -1,6 +1,7 @@
 # clock解析
-> 說明: 本報告的節錄內容主要來源為--[clock.html](https://github.com/ccccourse/wp/blob/master/code/05-js/clock.html)  
+> 說明: 本報告的程式主要來源為--[clock.html](https://github.com/ccccourse/wp/blob/master/code/05-js/clock.html)  
 [呈現頁面](https://ccccourse.github.io/wp/code/05-js/clock.html)  
+>其餘文字為原創   
 ## 方法 
 在showTime()函式中取得時、分、秒，再塞回id為time的元素中    
 ```c

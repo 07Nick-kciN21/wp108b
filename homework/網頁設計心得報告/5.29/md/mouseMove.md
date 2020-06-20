@@ -1,7 +1,7 @@
 # moveMouse解析  
-> 說明: 本報告的節錄內容主要來源為--[mouseMove.html](https://github.com/ccccourse/wp/blob/master/code/07-canvas/canvas/mouseMove.html)  
+> 說明: 本報告的程式內容主要來源為--[mouseMove.html](https://github.com/ccccourse/wp/blob/master/code/07-canvas/canvas/mouseMove.html)  
 [呈現頁面](https://ccccourse.github.io/wp/code/07-canvas/canvas/mouseMove.html)
-
+>其餘文字為原創  
 ## 簡介  
 追蹤滑鼠在canvas中的座標
 

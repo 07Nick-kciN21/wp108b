@@ -1,4 +1,4 @@
-> 說明: 本報告的節錄內容主要來源為--[[JS] 正則表達式(Regular Expression, regex) | PJCHENder 未整理筆記](https://pjchender.github.io/2017/09/26/js-%E6%AD%A3%E5%89%87%E8%A1%A8%E9%81%94%E5%BC%8F-regular-expression-regex/)
+> 說明: 本報告的節錄內容主要來源為--[[JS] 正則表達式(Regular Expression, regex) | PJCHENder 未整理筆記](https://pjchender.github.io/2017/09/26/js-%E6%AD%A3%E5%89%87%E8%A1%A8%E9%81%94%E5%BC%8F-regular-expression-regex/)  
 
 ## JavaScript 中使用正規式的函式
 ```

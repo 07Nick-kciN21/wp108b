@@ -1,6 +1,7 @@
 # sketchpad解析  
 > 說明: 本報告的節錄內容主要來源為 -- [sketchapad.html](https://github.com/ccccourse/wp/blob/master/code/07-canvas/sketchpad/sketchpad.html)  
 [呈現頁面](https://ccccourse.github.io/wp/code/07-canvas/canvas/sketchpad.html)
+>其餘文字為原創  
 ## 簡介  
 設置不同顏色和粗細的選項，再透過追蹤滑鼠軌跡畫出線條，具有複製圖畫的功能  
 ## 主要構造  
@@ -56,7 +57,7 @@ $lws.click(function () {
 var $canvas = $("#cSketchPad");         //取得手寫板的canvas  
 var ctx = $canvas[0].getContext("2d");  
     ctx.lineCap = "round";  
-    ctx.fillStyle = "white";            //整個canvas塗上白色背景避免PNG的透明底色效果  
+    ctx.fillStyle = "white";              
     ctx.fillRect(0, 0, $canvas.width(), $canvas.height());  
     var drawMode = false;  
 ```  

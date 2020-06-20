@@ -1,6 +1,7 @@
 # calculator解析  
-> 說明: 本報告的節錄內容主要來源為--[clock.html](https://github.com/ccccourse/wp/blob/master/code/05-js/countdown.html)  
+> 說明: 本報告的程式內容主要來源為--[clock.html](https://github.com/ccccourse/wp/blob/master/code/05-js/countdown.html)  
 [呈現頁面](https://ccccourse.github.io/wp/code/05-js/countdown.html)  
+>其餘文字為原創  
 ## 簡介  
 倒數計時器  
 
@@ -20,7 +21,7 @@ if(n===0){
       alert("時間到了");
     }		    
 ```
-## 個人總結：  
+## 個人總結  
 這個計時器程式跑到n=1會先跳出”時間到了”再跳出n=0，重點在於  
 ```c
 if(n===0){
@@ -53,5 +54,6 @@ if(n===-1){
     }  
 ```    
 問題就解決了。  
+參考[clock.html](https://github.com/ccccourse/wp/blob/master/code/05-js/countdown.html)後修改靠自己小幅度修改   
 [修改後成品](https://07nick-kcin21.github.io/wp108b/homework/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E5%BF%83%E5%BE%97%E5%A0%B1%E5%91%8A/5.15/countdown.html)
 

@@ -1,6 +1,7 @@
 # HtmlEditor解析
-> 說明: 本報告的節錄內容主要來源為--[HtmlEditor.html](https://github.com/ccccourse/wp/blob/master/code/06-app1/htmlEditor/HtmlEditorEmpty.htm)  
-[呈現頁面](https://ccccourse.github.io/wp/code/06-app1/htmlEditor/HtmlEditorEmpty.htm)
+> 說明: 本報告的程式內容主要來源為--[HtmlEditor.html](https://github.com/ccccourse/wp/blob/master/code/06-app1/htmlEditor/HtmlEditorEmpty.htm)  
+[呈現頁面](https://ccccourse.github.io/wp/code/06-app1/htmlEditor/HtmlEditorEmpty.htm)  
+>其餘文字為原創  
 
 ## 簡介  
 展示如何動態的展現一個網頁HTML+CSS的結果。  
@@ -29,7 +30,7 @@
   </td>  
 </tr>  
 ```  
-## 方法  
+## 方法    
 在cssbox、editbox輸入程式碼後，透過convert()函式，取得他們的內容  
 ```c
   var cssbox  = document.getElementById("cssbox");  
