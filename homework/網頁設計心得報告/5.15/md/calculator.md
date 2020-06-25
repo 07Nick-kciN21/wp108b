@@ -15,7 +15,7 @@ function calculate() {
     result.innerText = eval(a.value + op.value + b.value)
   }
 ```
-## 個人總結(完全原創)
+## 個人總結
 
 document.getElementById(‘id’)：
 把特定id內的元素提出來使用，var a = document.getElementById('a') 等於是var a = (value="3")
