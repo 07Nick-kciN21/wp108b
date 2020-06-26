@@ -6,11 +6,11 @@
   <div id="time"></div>	
   <script>
   var n=10;
-  function showtime(){
-    document.getElementById("time").innerHTML=n+'';
+  function showtime(){   
     if(n===-1){
       alert("時間到了");
     } else {		 
+       document.getElementById("time").innerHTML=n+'';
       setTimeout(showtime,1000);
       n=n-1;
     }
